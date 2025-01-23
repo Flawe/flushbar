@@ -323,7 +323,7 @@ class FlushbarRoute<T> extends OverlayRoute<T> {
     _filterColorAnimation = createColorFilterAnimation();
     _animation = createAnimation();
     assert(_animation != null, '$runtimeType.createAnimation() returned null.');
-    super.install(insertionPoint);
+    super.install();
   }
 
   @override
